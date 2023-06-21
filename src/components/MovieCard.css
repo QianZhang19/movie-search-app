@@ -1,0 +1,19 @@
+.card-container {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+.card-container .card {
+    height: 100%;
+}
+
+.card-container .card .card-img-top {
+    height: 60%;
+    object-fit: cover;
+}
+
+.card-container .card .card-body {
+    height: 40%;
+    overflow: hidden;
+}
